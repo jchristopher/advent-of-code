@@ -4,7 +4,6 @@ let invalidIds  = [];
 let answer      = 0;
 let idAsString  = '';
 let idSubString = '';
-let testRepeat  = '';
 
 testInput.split(',').forEach(function(range) {
 	let idRange = range.split('-');
