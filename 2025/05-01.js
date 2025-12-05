@@ -10,13 +10,9 @@ let input = `3-5
 17
 32`;
 
-let fresh = [];
-let available = [];
-
 let ingredients = input.split("\n\n");
-
-freshRanges = ingredients[0].split("\n");
-available   = ingredients[1].split("\n");
+let freshRanges = ingredients[0].split("\n");
+let available   = ingredients[1].split("\n");
 
 function isIngredientFresh(id) {
 	let fresh = false
